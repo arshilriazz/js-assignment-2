@@ -95,11 +95,8 @@ findItem = () => {
     let dishes = document.getElementsByClassName("item-name");
     for (let i = 0; i < dishes.length; i++) {
         let dish = dishes[i].textContent || dishes[i].innerText;
-        if (dish.toUpperCase().indexOf(inputValue) > -1) {
-            dishes[i].parentElement.style.display = "";
-        } else {
-            dishes[i].parentElement.style.display = "none";
-        }
+        if (dish.toUpperCase().indexOf(inputValue) > -1) dishes[i].parentElement.style.display = "";
+        else dishes[i].parentElement.style.display = "none";
     }
 }
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>ZeMoSo Restaurant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="load()">
+    <div class="title"> 
+      <span>Z</span><span>e</span><span>M</span><span>o</span><span>S</span><span>o</span>
+      Restaurant
+    </div>
+    <div>
+      <div class="table-list list-group"> 
+        <h4 class="headings">Tables</h4>
+        <ul>
+          <li class="custom-item-class custom-item"><input class="custom-item-class-inside" placeholder="Table Number" type="text" id="table-search" onkeyup="findTable()"/></li>
+        </ul>
+      </div>
+      <div class="item-list list-group">
+        <h4 class="headings">Menu</h4>
+        <ul>
+          <li class="custom-item-class custom-item"><input class="custom-item-class-inside" placeholder="Enter the dish name..." type="text" id="item-search" onkeyup="findItem()" /></li>
+        </ul>
+      </div>
+      <div class="modal-block"></div>
+      </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

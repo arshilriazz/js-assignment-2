@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.title {
+  text-align: center; 
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.title span:nth-of-type(even){
+  font-style: italic;
+  color:rgb(0, 45, 128);
+}
+.title span:nth-of-type(odd){
+  font-style: italic;
+  color:rgb(255, 102, 0);
+}
+
+.headings {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top : 20px;
+}
+
+.table-list {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 25%;
+  overflow-y: auto;
+  margin-top: 20px !important;
+}
+
+.btn-custom {
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.item-list {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 23%;
+  width: 75%;
+  overflow-y: auto;
+  max-height: 90%;
+  margin-top: 20px !important;
+}
+
+input {
+  outline: 0;
+  border: none;
+  width: 100%;
+}
+
+.table-details {
+  font-size: 14px;
+  text-align: left;
+}
+
+.modal-lg {
+  width: 50%;
+}
+
+.custom-item-class,
+.custom-item-class-inside {
+  position: relative;
+  display: block;
+  padding: .55rem 1.25rem;
+  background-color: rgb(194, 178, 178);
+}
+
+.custom-item-class-inside1 {
+  position: relative;
+  display: block;
+  background-color:  rgb(241, 240, 237);
+}
+
+.custom-active {
+  background-color: rgb(241, 188, 74);
+}
+
+.custom-active:hover {
+  background-color: rgb(255, 174, 0);
+}
+
+.custom-item {
+  border: none;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  box-shadow: 10px 12px 5px -9px rgba(210,204,204,0.69);
+}

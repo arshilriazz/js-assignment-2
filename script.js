@@ -135,10 +135,10 @@ popUpTable = (i) => {
                             `</tbody>
                         </table>            
                     </div>` +
-                `<div class="modal-footer">
+                `<div class="modal-footer border-class">
                         <button type="button" class="btn btn-custom" id="bill-`+ tables[i].tableId + `" data-dismiss="modal"
                                 `+ generateButton + ` onclick=clearTable(` + tables[i].tableId + `)>
-                            Generate Bill
+                            Close Session (Generate Bill)
                         </button>
                     </div>
                 </div>

@@ -91,6 +91,10 @@ input {
   background-color: rgb(255, 174, 0);
 }
 
+.border-class {
+  border: none;
+}
+
 .custom-item {
   border: none;
   margin-bottom: 3px;
